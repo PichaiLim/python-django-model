@@ -5,6 +5,8 @@ from django.db import models
 class Post(models.Model):
     id = models.BigAutoField(primary_key=True)
     active = models.BooleanField(default=True) #empty in the database
+    title = models.CharField(max_length=240)
+    content =  models.TextField(null=True, blank=True)
     pass
 
 
