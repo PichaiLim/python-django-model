@@ -1,5 +1,5 @@
 # python-django-model
-Django models
+Django models and migration
 
 # Get start porject Django
 - donwload python 3
