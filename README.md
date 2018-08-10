@@ -4,7 +4,7 @@ Django models
 # Get start porject Django
 - donwload python 3
 - install 'virtualenv.'
-    - remove folder '.bin/'. '.lib' '.include/'
+    - remove folder '.bin/', '.lib', '.include/'
 - virtualenv . -p python3
 - Type 'python' on command for check version is python is 3
 - Type 'source binactivate' on command
