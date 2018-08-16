@@ -6,7 +6,7 @@ class PostModel(models.Model):
     # https://docs.djangoproject.com/en/2.1/topics/db/models/#fields
     id = models.BigAutoField(primary_key=True)
     active = models.BooleanField(default=True) #empty in the database
-    title = models.CharField(max_length=240, verbose_name='Post title') # 'verbose_name' => change label name
+    title = models.CharField(max_length=240, verbose_name='Post title', unique = True) # 'verbose_name' => change label name
     content =  models.TextField(null=True, blank=True)
     
     # Disable 'pass' for using 'class Metal'
